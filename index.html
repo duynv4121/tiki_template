@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chùa Tập Code</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.14.0-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="header-heading">
+                <div class="header-heading-utilities">
+                    <div class="grid">
+                        <ul class="header-heading-utilities-list">
+                            <li class="header-heading-utilities-item">
+                                <a href="" class="header-heading-utilities-item--link">
+                                    <i class="fas fa-clipboard-check header-heading-utilities-item--link-icon"></i> Ticket
+                                </a>
+                            </li>
+                            <li class="header-heading-utilities-item">
+                                <a href="" class="header-heading-utilities-item--link">
+                                    <i class="fab fa-chrome header-heading-utilities-item--link-icon"></i> Trợ lí shop
+                                </a>
+                            </li>
+                            <li class="header-heading-utilities-item">
+                                <a href="" class="header-heading-utilities-item--link">
+                                    <i class="fas fa-piggy-bank header-heading-utilities-item--link-icon"></i> Ưu đãi đối tác
+                                </a>
+                            </li>
+                            <li class="header-heading-utilities-item">
+                                <a href="" class="header-heading-utilities-item--link">
+                                    <i class="fas fa-fire header-heading-utilities-item--link-icon"></i> Khuyến mãi hot
+                                </a>
+                            </li>
+                            <li class="header-heading-utilities-item">
+                                <a href="" class="header-heading-utilities-item--link">
+                                    <i class="fas fa-donate header-heading-utilities-item--link-icon"></i> Bán hàng cùng tiki
+                                    <i class="fas fa-chevron-down header-heading-utilities-item--icon"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="grid">
+                    <div class="header-navbar">
+                        <div class="header-navbar-with-search">
+                            <div class="header-navbar-logo">
+                                <a href="#">
+                                    <img src="./assets/img/tiki-logo.png" alt="" class="header-navbar-logo-img">
+                                </a>
+                            </div>
+                            <div class="header-navbar-search">
+                                <input type="text" class="header-navbar-search-text" placeholder="Tìm kiếm sản phẩm, thương hiệu, danh mục bạn mong muốn...">
+                                <div class="header-navbar-search-text-search">
+                                    <i class="fas fa-search header-navbar-search-text-search-icon"></i>
+                                    <span class="header-navbar-search-text-search-link">Tìm kiếm</span>
+                                </div>
+                            </div>
+                            <div class="header-navbar-user">
+                                <ul class="header-navbar-user-list">
+                                    <li class="header-navbar-user-item">
+                                        <a href="" class="header-navbar-user-item-link">
+                                            <i class="fas fa-map-marked-alt header-navbar-user-item-icon"></i> Theo dõi <br> đơn hàng
+                                        </a>
+                                    </li>
+                                    <li class="header-navbar-user-item">
+                                        <a href="" class="header-navbar-user-item-link">
+                                            <i class="fas fa-bell header-navbar-user-item-icon"></i> Thông báo <br> của tôi
+                                        </a>
+                                    </li>
+                                    <li class="header-navbar-user-item header-navbar-user-item-link-login">
+                                        <a href="" class="header-navbar-user-item-link header-navbar-user-item-link-login">
+                                            <i class="fas fa-user header-navbar-user-item-icon"></i> Đăng nhập <br> Tài khoản
+                                        </a>
+
+                                        <div class="header-navbar-user-item-login-user">
+                                            <div class="login-btn">
+                                                <button class="header-navbar-user-item-login header-navbar-user-item-login-btn">
+                                                    Đăng nhập
+                                                </button>
+                                                <button class="header-navbar-user-item-create-account header-navbar-user-item-login-btn">
+                                                    Tạo tài khoản
+                                                </button>
+                                                <button class="header-navbar-user-item-login-facebook header-navbar-user-item-login-btn">
+                                                    <i class="fab fa-facebook-f border-right icon-btn-login"></i>
+                                                    Đăng nhập bằng Facebook
+                                                </button>
+                                                <button class="header-navbar-user-item-login-google header-navbar-user-item-login-btn">
+                                                    <i class="fab fa-google-plus-g border-right icon-btn-login"></i>
+                                                    Đăng nhập bằng Google
+                                                </button>
+                                                <button class="header-navbar-user-item-login-telegram header-navbar-user-item-login-btn">
+                                                    <i class="fab fa-telegram-plane border-right icon-btn-login"></i>
+                                                    Đăng nhập bằng Telegram
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header-navbar-user-item header-navbar-user-item-cart ">
+                                        <a href="" class="header-navbar-user-item-link header-navbar-user-item-link-cart-border ">
+                                            <i class="fas fa-shopping-cart header-navbar-user-item-icon"></i> Giỏ hàng
+                                            <div class="header-navbar-user-item-icon-current">
+                                                <div class="header-navbar-user-item-icon-current-number">0</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="header-navbar-service">
+                            <div class="header-navbar-with-policy">
+                                <div class="header-navbar-menu">
+                                    <i class="fas fa-bars header-navbar-menu-icon"></i> Danh mục sản phẩm
+                                </div>
+                                <div class="header-navbar-from-location">
+                                    <i class="fas fa-map-pin header-navbar-from-location-icon"></i> Bạn muốn giao hàng đến đâu?
+                                </div>
+                            </div>
+
+                            <div class="header-navbar-lie">
+                                <div class="header-navbar-lie-viewed header-navbar-lie-in-row ">
+                                    <i class="fas fa-chevron-down  header-navbar-lie-viewed-icon"></i>
+                                    <div class="header-navbar-lie-viewed-text">
+                                        Sản phẩm <br> bạn đã xem
+                                    </div>
+
+                                </div>
+
+                                <div class="header-navbar-lie-money header-navbar-lie-in-row">
+                                    <i class="fas fa-money-bill-alt header-navbar-lie-viewed-icon"></i>
+                                    <div class="header-navbar-lie-viewed-text">
+                                        Hoàn tiền <br> 15%
+                                    </div>
+                                </div>
+
+                                <div class="header-navbar-lie-card header-navbar-lie-in-row">
+                                    <i class="fas fa-people-carry header-navbar-lie-viewed-icon"></i>
+                                    <div class="header-navbar-lie-viewed-text">
+                                        Giao nhanh <br> 2h & hôm sau
+                                    </div>
+                                </div>
+
+                                <div class="header-navbar-lie-food header-navbar-lie-in-row">
+                                    <i class="fas fa-utensils header-navbar-lie-viewed-icon"></i>
+                                    <div class="header-navbar-lie-viewed-text">
+                                        Thực phẩm <br> tươi sống
+                                    </div>
+                                </div>
+
+                                <div class="header-navbar-lie-genuine header-navbar-lie-in-row">
+                                    <i class="fas fa-gifts header-navbar-lie-viewed-icon"></i>
+                                    <div class="header-navbar-lie-viewed-text">
+                                        Sản phẩm <br> chính hiệu
+                                    </div>
+                                </div>
+
+                                <div class="header-navbar-lie-day header-navbar-lie-in-row">
+                                    <i class="fas fa-exchange-alt header-navbar-lie-viewed-icon"></i>
+                                    <div class="header-navbar-lie-viewed-text">
+                                        30 ngày <br> đổi trả
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="container">
+
+        </div>
+
+        <footer class="footer">
+
+        </footer>
+    </div>
+</body>
+
+</html>
