@@ -11,7 +11,7 @@
 }
 
 * {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 html {
@@ -19,6 +19,7 @@ html {
     line-height: 1.6rem;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    background-color: #efefef;
 }
 
 
@@ -65,5 +66,17 @@ html {
     }
     to {
         opacity: 1;
+    }
+}
+
+@keyframes leaves {
+    0% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+    100% {
+        opacity: 0.5;
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
     }
 }
